@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "voyager-admin/admin": "2.x-dev"
+        "voyager-admin/admin": "*"
     },
     "autoload": {
         "psr-4": {
