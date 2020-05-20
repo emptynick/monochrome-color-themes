@@ -8,9 +8,6 @@
             "email": "info@cschweppe.de"
         }
     ],
-    "require": {
-        "voyager-admin/admin": "*"
-    },
     "autoload": {
         "psr-4": {
             "Emptynick\\BlueTheme\\": "src/"
