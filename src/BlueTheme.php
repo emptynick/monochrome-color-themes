@@ -1,18 +1,18 @@
 <?php
 
-namespace Voyager\ThemeBoilerplate;
+namespace Emptynick\BlueTheme;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
-use Voyager\Admin\Contracts\Plugins\IsThemePlugin;
+use Voyager\Admin\Contracts\Plugins\ThemePlugin;
 
-class ThemeBoilerplate implements IsThemePlugin
+class BlueTheme implements ThemePlugin
 {
-    public $name = 'Theme boilerplate';
-    public $description = 'A theme boilerplate for Voyager 2';
-    public $repository = 'voyager-admin/theme-boilerplate';
-    public $website = 'https://github.com/voyager-admin/theme-boilerplate';
+    public $name = 'Blue Theme';
+    public $description = 'A blue theme for Voyager 2';
+    public $repository = 'emptynick/voyager-blueish-theme';
+    public $website = 'https://github.com/emptynick/voyager-blueish-theme';
     public $version = '1.0.0';
 
     public function getInstructionsView(): ?View
@@ -27,7 +27,7 @@ class ThemeBoilerplate implements IsThemePlugin
 
     public function registerPublicRoutes()
     {
-        Route::get('theme-boilerplate.css', function () {
+        Route::get('blue-theme.css', function () {
             $path = realpath(dirname(__DIR__, 1).'/resources/dist/styles.css');
             $response = response(File::get($path), 200, ['Content-Type' => 'text/css']);
             $response->setSharedMaxAge(31536000);
@@ -35,7 +35,7 @@ class ThemeBoilerplate implements IsThemePlugin
             $response->setExpires(new \DateTime('+1 year'));
 
             return $response;
-        })->name('theme-boilerplate');
+        })->name('blue-theme');
     }
 
     public function getSettingsView(): ?View
@@ -45,6 +45,6 @@ class ThemeBoilerplate implements IsThemePlugin
 
     public function getStyleRoute(): string
     {
-        return route('theme-boilerplate');
+        return route('blue-theme');
     }
 }

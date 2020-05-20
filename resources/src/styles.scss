@@ -7,7 +7,7 @@
     --accent-text-color-dark: #4299e1;
     --accent-text-color: #4299e1;
 
-    // Body
+    // Bg
     --bg-color-dark: #1A202E;
     --bg-color: #F1F5F9;
 
@@ -31,6 +31,8 @@
     --input-border-color: #64748B;
     --input-text-color-dark: #E2E8F0;
     --input-text-color: #27303F;
+
+    // Label
     --label-text-color-dark: #E2E8F0;
     --label-text-color: #27303F;
 
@@ -44,13 +46,19 @@
     --loader-text-color-dark: #E2E8F0;
     --loader-text-color: #000;
 
-    // Notifications
+    // Notification
     --notification-bg-color-dark: #27303F;
     --notification-bg-color: #fff;
     --notification-message-color-dark: #64748B;
     --notification-message-color: #64748B;
     --notification-title-color-dark: #F1F5F9;
     --notification-title-color: #1A202E;
+
+    // Scrollbar
+    --scrollbar-bg-color-dark: #27303F;
+    --scrollbar-bg-color: #D9E0EA;
+    --scrollbar-handle-color-dark: #475569;
+    --scrollbar-handle-color: #97A6BA;
 
     // Sidebar
     --sidebar-bg-color-dark: #27303F;

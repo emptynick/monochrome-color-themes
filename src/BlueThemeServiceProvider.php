@@ -1,15 +1,15 @@
 <?php
 
-namespace Voyager\ThemeBoilerplate;
+namespace Emptynick\BlueTheme;
 
 use Illuminate\Support\ServiceProvider;
 use Voyager\Admin\Facades\Plugins as PluginFacade;
 
-class ThemeBoilerplateServiceProvider extends ServiceProvider
+class BlueThemeServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        PluginFacade::addPlugin(\Voyager\ThemeBoilerplate\ThemeBoilerplate::class);
+        PluginFacade::addPlugin(\Emptynick\BlueTheme\BlueTheme::class);
     }
 
     public function register()

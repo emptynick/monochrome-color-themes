@@ -1,6 +1,6 @@
 {
-    "name": "voyager-admin/theme-boilerplate",
-    "description": "A theme boilerplate for Voyager 2",
+    "name": "emptynick/voyager-blueish-theme",
+    "description": "A blue theme for Voyager 2",
     "license": "MIT",
     "authors": [
         {
@@ -13,14 +13,14 @@
     },
     "autoload": {
         "psr-4": {
-            "VoyagerAdmin\\ThemeBoilerplate\\": "src/"
+            "Emptynick\\BlueTheme\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "VoyagerAdmin\\ThemeBoilerplate\\ThemeBoilerplateServiceProvider"
+                "Emptynick\\BlueTheme\\BlueThemeServiceProvider"
             ]
         }
     }
