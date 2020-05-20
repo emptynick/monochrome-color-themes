@@ -1,3 +1,11 @@
 {
-    "/resources/dist/styles.css": "/resources/dist/styles.css"
+    "/resources/dist/red.css": "/resources/dist/red.css",
+    "/resources/dist/blue.css": "/resources/dist/blue.css",
+    "/resources/dist/orange.css": "/resources/dist/orange.css",
+    "/resources/dist/teal.css": "/resources/dist/teal.css",
+    "/resources/dist/yellow.css": "/resources/dist/yellow.css",
+    "/resources/dist/indigo.css": "/resources/dist/indigo.css",
+    "/resources/dist/green.css": "/resources/dist/green.css",
+    "/resources/dist/pink.css": "/resources/dist/pink.css",
+    "/resources/dist/purple.css": "/resources/dist/purple.css"
 }

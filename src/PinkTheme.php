@@ -7,10 +7,10 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
 use Voyager\Admin\Contracts\Plugins\ThemePlugin;
 
-class BlueTheme implements ThemePlugin
+class PinkTheme implements ThemePlugin
 {
-    public $name = 'Blue Theme';
-    public $description = 'A blue theme for Voyager 2';
+    public $name = 'Pink Theme';
+    public $description = 'A pink theme for Voyager 2';
     public $repository = 'emptynick/monochrome-color-themes';
     public $website = 'https://github.com/emptynick/monochrome-color-themes';
     public $version = '1.0.0';
@@ -27,15 +27,15 @@ class BlueTheme implements ThemePlugin
 
     public function registerPublicRoutes()
     {
-        Route::get('blue-theme.css', function () {
-            $path = realpath(dirname(__DIR__, 1).'/resources/dist/blue.css');
+        Route::get('pink-theme.css', function () {
+            $path = realpath(dirname(__DIR__, 1).'/resources/dist/pink.css');
             $response = response(File::get($path), 200, ['Content-Type' => 'text/css']);
             $response->setSharedMaxAge(31536000);
             $response->setMaxAge(31536000);
             $response->setExpires(new \DateTime('+1 year'));
 
             return $response;
-        })->name('blue-theme');
+        })->name('pink-theme');
     }
 
     public function getSettingsView(): ?View
@@ -45,6 +45,6 @@ class BlueTheme implements ThemePlugin
 
     public function getStyleRoute(): string
     {
-        return route('blue-theme');
+        return route('pink-theme');
     }
 }

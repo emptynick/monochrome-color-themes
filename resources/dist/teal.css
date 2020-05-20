@@ -1,0 +1,201 @@
+:root {
+  /* Accent */
+  --accent-bg-color-dark: #38b2ac;
+  --accent-bg-color: #38b2ac;
+  --accent-border-color-dark: #38b2ac;
+  --accent-border-color: #38b2ac;
+  --accent-text-color-dark: #38b2ac;
+  --accent-text-color: #38b2ac;
+  --accent-hover-color-dark: #319795;
+  --accent-hover-color: #319795;
+  --accent-focus-color-dark: #2c7a7b;
+  --accent-focus-color: #2c7a7b;
+  --accent-active-color-dark: #285e61;
+  --accent-active-color: #285e61;
+  /* Bg */
+  --bg-color-dark: #234e52;
+  --bg-color: #e6fffa;
+  /* Card */
+  --card-bg-color-dark: #285e61;
+  --card-bg-color: #e6fffa;
+  --card-border-color-dark: #2c7a7b;
+  --card-border-color-dark: #2c7a7b;
+  --card-border-color-dark: #2c7a7b;
+  --card-border-color-dark: #2c7a7b;
+  --card-border-color: #4fd1c5;
+  --card-border-color: #4fd1c5;
+  --card-text-color-dark: #81e6d9;
+  --card-text-color: #2c7a7b;
+  --card-title-color-dark: #81e6d9;
+  --card-title-color: #2c7a7b;
+  /* Code */
+  --code-bg-color-dark: #234e52;
+  --code-bg-color: #81e6d9;
+  --code-text-color-dark: #b2f5ea;
+  --code-text-color: #285e61;
+  /* Description */
+  --description-text-color-dark: #b2f5ea;
+  --description-text-color: #285e61;
+  /* Dropdown */
+  --dropdown-bg-color-dark: #234e52;
+  --dropdown-bg-color: #e6fffa;
+  --dropdown-border-color-dark: #2c7a7b;
+  --dropdown-border-color-dark: #2c7a7b;
+  --dropdown-border-color: #4fd1c5;
+  --dropdown-border-color: #4fd1c5;
+  --dropdown-divider-border-color-dark: #2c7a7b;
+  --dropdown-divider-border-color: #81e6d9;
+  --dropdown-link-color-dark: #319795;
+  --dropdown-link-color: #319795;
+  --dropdown-link-hover-color-dark: #285e61;
+  --dropdown-link-hover-color: #e6fffa;
+  /* Font */
+  --font-family: Inter, system-ui;
+  /* Input */
+  --input-bg-color-dark: #2c7a7b;
+  --input-bg-color: #e6fffa;
+  --input-border-color-dark: #319795;
+  --input-border-color: #38b2ac;
+  --input-text-color-dark: #b2f5ea;
+  --input-text-color: #285e61;
+  /* Label */
+  --label-text-color-dark: #b2f5ea;
+  --label-text-color: #285e61;
+  /* Link */
+  --link-color-dark: #319795;
+  --link-color: #319795;
+  /* Loader */
+  --loader-bg-color-dark: #285e61;
+  --loader-bg-color: #e6fffa;
+  --loader-text-color-dark: #b2f5ea;
+  --loader-text-color: #000;
+  /* Media */
+  --media-bg-color-dark: ;
+  --media-bg-color: #e6fffa;
+  --media-border-color-dark: #2c7a7b;
+  --media-border-color: #81e6d9;
+  --media-breadcrumbs-bg-color-dark: #285e61;
+  --media-breadcrumbs-bg-color: ;
+  --media-breadcrumbs-border-color-dark: #2c7a7b;
+  --media-breadcrumbs-border-color: #81e6d9;
+  --media-item-bg-color-dark: #285e61;
+  --media-item-bg-color: #e6fffa;
+  --media-item-border-color-dark: #2c7a7b;
+  --media-item-border-color: #81e6d9;
+  --media-item-hover-bg-color-dark: #2c7a7b;
+  --media-item-hover-bg-color: #b2f5ea;
+  --media-item-selected-bg-color-dark: ;
+  --media-item-selected-bg-color: ;
+  --media-item-selected-border-color-dark: #2c7a7b;
+  --media-item-selected-border-color: #81e6d9;
+  --media-sidebar-bg-color-dark: #285e61;
+  --media-sidebar-bg-color: #e6fffa;
+  --media-sidebar-border-color-dark: #2c7a7b;
+  --media-sidebar-border-color: #81e6d9;
+  /* Notification */
+  --notification-bg-color-dark: #285e61;
+  --notification-bg-color: #e6fffa;
+  --notification-message-color-dark: #38b2ac;
+  --notification-message-color: #38b2ac;
+  --notification-title-color-dark: #e6fffa;
+  --notification-title-color: #234e52;
+  /* Scrollbar */
+  --scrollbar-bg-color-dark: #285e61;
+  --scrollbar-bg-color-dark: #285e61;
+  --scrollbar-bg-color: ;
+  --scrollbar-bg-color: ;
+  --scrollbar-handle-color-dark: #319795;
+  --scrollbar-handle-color-dark: #319795;
+  --scrollbar-handle-color: #4fd1c5;
+  --scrollbar-handle-color: #4fd1c5;
+  /* Select */
+  --select-bg-color-dark: #285e61;
+  --select-bg-color-dark: #319795;
+  --select-bg-color: #4fd1c5;
+  --select-bg-color: #e6fffa;
+  --select-bg-focused-color-dark: ;
+  --select-bg-focused-color: #e6fffa;
+  --select-bg-selected-color-dark: #2c7a7b;
+  --select-bg-selected-color: ;
+  --select-text-color-dark: #e6fffa;
+  --select-text-color: #234e52;
+  --select-text-focused-color-dark: #e6fffa;
+  --select-text-focused-color: #234e52;
+  --select-text-selected-color-dark: #e6fffa;
+  --select-text-selected-color: #234e52;
+  /* Sidebar */
+  --sidebar-bg-color-dark: #285e61;
+  --sidebar-bg-color: #285e61;
+  --sidebar-border-color-dark: #2c7a7b;
+  --sidebar-border-color: #319795;
+  --sidebar-icon-color-dark: #b2f5ea;
+  --sidebar-icon-color: #b2f5ea;
+  --sidebar-item-active-color-dark: #234e52;
+  --sidebar-item-active-color: #2c7a7b;
+  --sidebar-item-hover-color-dark: #2c7a7b;
+  --sidebar-item-hover-color: #319795;
+  --sidebar-item-icon-active-color-dark: #b2f5ea;
+  --sidebar-item-icon-active-color: #81e6d9;
+  --sidebar-item-icon-color-dark: #81e6d9;
+  --sidebar-item-icon-color: #81e6d9;
+  --sidebar-item-text-active-color-dark: #b2f5ea;
+  --sidebar-item-text-active-color: #81e6d9;
+  --sidebar-item-text-color-dark: #81e6d9;
+  --sidebar-item-text-color: #81e6d9;
+  --sidebar-sub-item-color-dark: ;
+  --sidebar-sub-item-color: ;
+  --sidebar-title-color-dark: #b2f5ea;
+  --sidebar-title-color: #b2f5ea;
+  /* Table */
+  --table-border-color-dark: #319795;
+  --table-border-color: #81e6d9;
+  --table-head-bg-color-dark: transparent;
+  --table-head-bg-color: #e6fffa;
+  --table-head-border-color-dark: #319795;
+  --table-head-border-color: #81e6d9;
+  --table-head-text-color-dark: #4fd1c5;
+  --table-head-text-color: #234e52;
+  --table-row-border-color-dark: #319795;
+  --table-row-border-color: #81e6d9;
+  --table-row-even-bg-color-dark: transparent;
+  --table-row-even-bg-color-hover-dark: #2c7a7b;
+  --table-row-even-bg-color-hover: #e6fffa;
+  --table-row-even-bg-color: transparent;
+  --table-row-even-text-color-dark: #4fd1c5;
+  --table-row-even-text-color-hover-dark: #4fd1c5;
+  --table-row-even-text-color-hover: #285e61;
+  --table-row-even-text-color: #2c7a7b;
+  --table-row-odd-bg-color-dark: ;
+  --table-row-odd-bg-color-hover-dark: #2c7a7b;
+  --table-row-odd-bg-color-hover: ;
+  --table-row-odd-bg-color: ;
+  --table-row-odd-text-color-dark: #4fd1c5;
+  --table-row-odd-text-color-hover-dark: #4fd1c5;
+  --table-row-odd-text-color-hover: #285e61;
+  --table-row-odd-text-color: #285e61;
+  /* Tabs */
+  --tabs-border-color-active-dark: #38b2ac;
+  --tabs-border-color-active: #38b2ac;
+  --tabs-border-color-dark: #2c7a7b;
+  --tabs-border-color-hover-dark: #38b2ac;
+  --tabs-border-color-hover: #81e6d9;
+  --tabs-border-color: #b2f5ea;
+  --tabs-text-color-active-dark: #319795;
+  --tabs-text-color-active: #319795;
+  --tabs-text-color-dark: #4fd1c5;
+  --tabs-text-color-hover-dark: #38b2ac;
+  --tabs-text-color-hover: #2c7a7b;
+  --tabs-text-color: #4fd1c5;
+  /* Text */
+  --text-color-dark: #81e6d9;
+  --text-color: #2c7a7b;
+  /* Tooltip */
+  --tooltip-arrow-border-color-dark: #234e52;
+  --tooltip-arrow-border-color: #234e52;
+  --tooltip-bg-color-dark: #234e52;
+  --tooltip-bg-color: #234e52;
+  --tooltip-border-color-dark: #2c7a7b;
+  --tooltip-border-color: #2c7a7b;
+  --tooltip-text-color-dark: #fff;
+  --tooltip-text-color: #fff;
+}

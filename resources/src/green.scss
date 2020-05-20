@@ -1,0 +1,222 @@
+$color: 'green';
+
+:root {
+    /* Accent */
+    --accent-bg-color-dark: theme('colors.#{$color}.500');
+    --accent-bg-color: theme('colors.#{$color}.500');
+    --accent-border-color-dark: theme('colors.#{$color}.500');
+    --accent-border-color: theme('colors.#{$color}.500');
+    --accent-text-color-dark: theme('colors.#{$color}.500');
+    --accent-text-color: theme('colors.#{$color}.500');
+    --accent-hover-color-dark: theme('colors.#{$color}.600');
+    --accent-hover-color: theme('colors.#{$color}.600');
+    --accent-focus-color-dark: theme('colors.#{$color}.700');
+    --accent-focus-color: theme('colors.#{$color}.700');
+    --accent-active-color-dark: theme('colors.#{$color}.800');
+    --accent-active-color: theme('colors.#{$color}.800');
+
+    /* Bg */
+    --bg-color-dark: theme('colors.#{$color}.900');
+    --bg-color: theme('colors.#{$color}.100');
+
+    /* Card */
+    --card-bg-color-dark: theme('colors.#{$color}.800');
+    --card-bg-color: theme('colors.#{$color}.100');
+    --card-border-color-dark: theme('colors.#{$color}.700');
+    --card-border-color-dark: theme('colors.#{$color}.700');
+    --card-border-color-dark: theme('colors.#{$color}.700');
+    --card-border-color-dark: theme('colors.#{$color}.700');
+    --card-border-color: theme('colors.#{$color}.400');
+    --card-border-color: theme('colors.#{$color}.400');
+    --card-text-color-dark: theme('colors.#{$color}.300');
+    --card-text-color: theme('colors.#{$color}.700');
+    --card-title-color-dark: theme('colors.#{$color}.300');
+    --card-title-color: theme('colors.#{$color}.700');
+
+    /* Code */
+    --code-bg-color-dark: theme('colors.#{$color}.900');
+    --code-bg-color: theme('colors.#{$color}.300');
+    --code-text-color-dark: theme('colors.#{$color}.200');
+    --code-text-color: theme('colors.#{$color}.800');
+
+    /* Description */
+    --description-text-color-dark: theme('colors.#{$color}.200');
+    --description-text-color: theme('colors.#{$color}.800');
+
+    /* Dropdown */
+    --dropdown-bg-color-dark: theme('colors.#{$color}.900');
+    --dropdown-bg-color: theme('colors.#{$color}.100');
+    --dropdown-border-color-dark: theme('colors.#{$color}.700');
+    --dropdown-border-color-dark: theme('colors.#{$color}.700');
+    --dropdown-border-color: theme('colors.#{$color}.400');
+    --dropdown-border-color: theme('colors.#{$color}.400');
+    --dropdown-divider-border-color-dark: theme('colors.#{$color}.700');
+    --dropdown-divider-border-color: theme('colors.#{$color}.300');
+    --dropdown-link-color-dark: theme('colors.#{$color}.600');
+    --dropdown-link-color: theme('colors.#{$color}.600');
+    --dropdown-link-hover-color-dark: theme('colors.#{$color}.800');
+    --dropdown-link-hover-color: theme('colors.#{$color}.100');
+
+    /* Font */
+    --font-family: Inter, system-ui;
+
+    /* Input */
+    --input-bg-color-dark: theme('colors.#{$color}.700');
+    --input-bg-color: theme('colors.#{$color}.100');
+    --input-border-color-dark: theme('colors.#{$color}.600');
+    --input-border-color: theme('colors.#{$color}.500');
+    --input-text-color-dark: theme('colors.#{$color}.200');
+    --input-text-color: theme('colors.#{$color}.800');
+
+    /* Label */
+    --label-text-color-dark: theme('colors.#{$color}.200');
+    --label-text-color: theme('colors.#{$color}.800');
+
+    /* Link */
+    --link-color-dark: theme('colors.#{$color}.600');
+    --link-color: theme('colors.#{$color}.600');
+
+    /* Loader */
+    --loader-bg-color-dark: theme('colors.#{$color}.800');
+    --loader-bg-color: theme('colors.#{$color}.100');
+    --loader-text-color-dark: theme('colors.#{$color}.200');
+    --loader-text-color: theme('colors.black');
+
+    /* Media */
+    --media-bg-color-dark: theme('colors.#{$color}.850');
+    --media-bg-color: theme('colors.#{$color}.100');
+    --media-border-color-dark: theme('colors.#{$color}.700');
+    --media-border-color: theme('colors.#{$color}.300');
+    --media-breadcrumbs-bg-color-dark: theme('colors.#{$color}.800');
+    --media-breadcrumbs-bg-color: theme('colors.#{$color}.150');
+    --media-breadcrumbs-border-color-dark: theme('colors.#{$color}.700');
+    --media-breadcrumbs-border-color: theme('colors.#{$color}.300');
+    --media-item-bg-color-dark: theme('colors.#{$color}.800');
+    --media-item-bg-color: theme('colors.#{$color}.100');
+    --media-item-border-color-dark: theme('colors.#{$color}.700');
+    --media-item-border-color: theme('colors.#{$color}.300');
+    --media-item-hover-bg-color-dark: theme('colors.#{$color}.700');
+    --media-item-hover-bg-color: theme('colors.#{$color}.200');
+    --media-item-selected-bg-color-dark: theme('colors.#{$color}.750');
+    --media-item-selected-bg-color: theme('colors.#{$color}.250');
+    --media-item-selected-border-color-dark: theme('colors.#{$color}.700');
+    --media-item-selected-border-color: theme('colors.#{$color}.300');
+    --media-sidebar-bg-color-dark: theme('colors.#{$color}.800');
+    --media-sidebar-bg-color: theme('colors.#{$color}.100');
+    --media-sidebar-border-color-dark: theme('colors.#{$color}.700');
+    --media-sidebar-border-color: theme('colors.#{$color}.300');
+
+    /* Notification */
+    --notification-bg-color-dark: theme('colors.#{$color}.800');
+    --notification-bg-color: theme('colors.#{$color}.100');
+    --notification-message-color-dark: theme('colors.#{$color}.500');
+    --notification-message-color: theme('colors.#{$color}.500');
+    --notification-title-color-dark: theme('colors.#{$color}.100');
+    --notification-title-color: theme('colors.#{$color}.900');
+
+    /* Scrollbar */
+    --scrollbar-bg-color-dark: theme('colors.#{$color}.800');
+    --scrollbar-bg-color-dark: theme('colors.#{$color}.800');
+    --scrollbar-bg-color: theme('colors.#{$color}.250');
+    --scrollbar-bg-color: theme('colors.#{$color}.250');
+    --scrollbar-handle-color-dark: theme('colors.#{$color}.600');
+    --scrollbar-handle-color-dark: theme('colors.#{$color}.600');
+    --scrollbar-handle-color: theme('colors.#{$color}.400');
+    --scrollbar-handle-color: theme('colors.#{$color}.400');
+
+    /* Select */
+    --select-bg-color-dark: theme('colors.#{$color}.800');
+    --select-bg-color-dark: theme('colors.#{$color}.600');
+    --select-bg-color: theme('colors.#{$color}.400');
+    --select-bg-color: theme('colors.#{$color}.100');
+    --select-bg-focused-color-dark: theme('colors.#{$color}.750');
+    --select-bg-focused-color: theme('colors.#{$color}.100');
+    --select-bg-selected-color-dark: theme('colors.#{$color}.700');
+    --select-bg-selected-color: theme('colors.#{$color}.150');
+    --select-text-color-dark: theme('colors.#{$color}.100');
+    --select-text-color: theme('colors.#{$color}.900');
+    --select-text-focused-color-dark: theme('colors.#{$color}.100');
+    --select-text-focused-color: theme('colors.#{$color}.900');
+    --select-text-selected-color-dark: theme('colors.#{$color}.100');
+    --select-text-selected-color: theme('colors.#{$color}.900');
+
+    /* Sidebar */
+    --sidebar-bg-color-dark: theme('colors.#{$color}.800');
+    --sidebar-bg-color: theme('colors.#{$color}.800');
+    --sidebar-border-color-dark: theme('colors.#{$color}.700');
+    --sidebar-border-color: theme('colors.#{$color}.600');
+    --sidebar-icon-color-dark: theme('colors.#{$color}.200');
+    --sidebar-icon-color: theme('colors.#{$color}.200');
+    --sidebar-item-active-color-dark: theme('colors.#{$color}.900');
+    --sidebar-item-active-color: theme('colors.#{$color}.700');
+    --sidebar-item-hover-color-dark: theme('colors.#{$color}.700');
+    --sidebar-item-hover-color: theme('colors.#{$color}.600');
+    --sidebar-item-icon-active-color-dark: theme('colors.#{$color}.200');
+    --sidebar-item-icon-active-color: theme('colors.#{$color}.300');
+    --sidebar-item-icon-color-dark: theme('colors.#{$color}.300');
+    --sidebar-item-icon-color: theme('colors.#{$color}.300');
+    --sidebar-item-text-active-color-dark: theme('colors.#{$color}.200');
+    --sidebar-item-text-active-color: theme('colors.#{$color}.300');
+    --sidebar-item-text-color-dark: theme('colors.#{$color}.300');
+    --sidebar-item-text-color: theme('colors.#{$color}.300');
+    --sidebar-sub-item-color-dark: theme('colors.#{$color}.850');
+    --sidebar-sub-item-color: theme('colors.#{$color}.850');
+    --sidebar-title-color-dark: theme('colors.#{$color}.200');
+    --sidebar-title-color: theme('colors.#{$color}.200');
+
+    /* Table */
+    --table-border-color-dark: theme('colors.#{$color}.600');
+    --table-border-color: theme('colors.#{$color}.300');
+    --table-head-bg-color-dark: transparent;
+    --table-head-bg-color: theme('colors.#{$color}.100');
+    --table-head-border-color-dark: theme('colors.#{$color}.600');
+    --table-head-border-color: theme('colors.#{$color}.300');
+    --table-head-text-color-dark: theme('colors.#{$color}.400');
+    --table-head-text-color: theme('colors.#{$color}.900');
+    --table-row-border-color-dark: theme('colors.#{$color}.600');
+    --table-row-border-color: theme('colors.#{$color}.300');
+    --table-row-even-bg-color-dark: transparent;
+    --table-row-even-bg-color-hover-dark: theme('colors.#{$color}.700');
+    --table-row-even-bg-color-hover: theme('colors.#{$color}.100');
+    --table-row-even-bg-color: transparent;
+    --table-row-even-text-color-dark: theme('colors.#{$color}.400');
+    --table-row-even-text-color-hover-dark: theme('colors.#{$color}.400');
+    --table-row-even-text-color-hover: theme('colors.#{$color}.800');
+    --table-row-even-text-color: theme('colors.#{$color}.700');
+    --table-row-odd-bg-color-dark: theme('colors.#{$color}.750');
+    --table-row-odd-bg-color-hover-dark: theme('colors.#{$color}.700');
+    --table-row-odd-bg-color-hover: theme('colors.#{$color}.150');
+    --table-row-odd-bg-color: theme('colors.#{$color}.50');
+    --table-row-odd-text-color-dark: theme('colors.#{$color}.400');
+    --table-row-odd-text-color-hover-dark: theme('colors.#{$color}.400');
+    --table-row-odd-text-color-hover: theme('colors.#{$color}.800');
+    --table-row-odd-text-color: theme('colors.#{$color}.800');
+
+    /* Tabs */
+    --tabs-border-color-active-dark: theme('colors.#{$color}.500');
+    --tabs-border-color-active: theme('colors.#{$color}.500');
+    --tabs-border-color-dark: theme('colors.#{$color}.700');
+    --tabs-border-color-hover-dark: theme('colors.#{$color}.500');
+    --tabs-border-color-hover: theme('colors.#{$color}.300');
+    --tabs-border-color: theme('colors.#{$color}.200');
+    --tabs-text-color-active-dark: theme('colors.#{$color}.600');
+    --tabs-text-color-active: theme('colors.#{$color}.600');
+    --tabs-text-color-dark: theme('colors.#{$color}.400');
+    --tabs-text-color-hover-dark: theme('colors.#{$color}.500');
+    --tabs-text-color-hover: theme('colors.#{$color}.700');
+    --tabs-text-color: theme('colors.#{$color}.400');
+
+    /* Text */
+    --text-color-dark: theme('colors.#{$color}.300');
+    --text-color: theme('colors.#{$color}.700');
+
+    /* Tooltip */
+    --tooltip-arrow-border-color-dark: theme('colors.#{$color}.900');
+    --tooltip-arrow-border-color: theme('colors.#{$color}.900');
+    --tooltip-bg-color-dark: theme('colors.#{$color}.900');
+    --tooltip-bg-color: theme('colors.#{$color}.900');
+    --tooltip-border-color-dark: theme('colors.#{$color}.700');
+    --tooltip-border-color: theme('colors.#{$color}.700');
+    --tooltip-text-color-dark: theme('colors.white');
+    --tooltip-text-color: theme('colors.white');
+}
