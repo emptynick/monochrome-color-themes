@@ -1,6 +1,6 @@
 <?php
 
-namespace Emptynick\BlueTheme;
+namespace Emptynick\MonochromeThemesCollection;
 
 use Illuminate\Support\ServiceProvider;
 use Voyager\Admin\Manager\Plugins as PluginManager;
@@ -9,7 +9,7 @@ class BlueThemeServiceProvider extends ServiceProvider
 {
     public function boot(PluginManager $pluginmanager)
     {
-        $pluginmanager->addPlugin(\Emptynick\BlueTheme\BlueTheme::class);
+        $pluginmanager->addPlugin(\Emptynick\MonochromeThemesCollection\BlueTheme::class);
     }
 
     public function register()

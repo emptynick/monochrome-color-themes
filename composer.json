@@ -1,6 +1,6 @@
 {
-    "name": "emptynick/voyager-blueish-theme",
-    "description": "A blue theme for Voyager 2",
+    "name": "emptynick/monochrome-color-themes",
+    "description": "A theme collection of monochromatic colors for Voyager 2",
     "license": "MIT",
     "authors": [
         {
@@ -10,14 +10,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Emptynick\\BlueTheme\\": "src/"
+            "Emptynick\\MonochromeThemesCollection\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Emptynick\\BlueTheme\\BlueThemeServiceProvider"
+                "Emptynick\\MonochromeThemesCollection\\MonochromeThemesCollectionServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Emptynick\BlueTheme;
+namespace Emptynick\MonochromeThemesCollection;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
@@ -11,8 +11,8 @@ class BlueTheme implements ThemePlugin
 {
     public $name = 'Blue Theme';
     public $description = 'A blue theme for Voyager 2';
-    public $repository = 'emptynick/voyager-blueish-theme';
-    public $website = 'https://github.com/emptynick/voyager-blueish-theme';
+    public $repository = 'emptynick/monochrome-color-themes';
+    public $website = 'https://github.com/emptynick/monochrome-color-themes';
     public $version = '1.0.0';
 
     public function getInstructionsView(): ?View
