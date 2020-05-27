@@ -1,7 +1,2 @@
-# Voyager theme boilerplate
-This repository serves as a starting point to develop a custom theme plugin for Voyager 2.
-
-
-To create your own style, fork this repository then run `composer install` and `npm install`.  
-After that, make your changes to the variables found in [resources/src/styles.scss](./resources/src/styles.scss) and compile by running  
-`npm run prod` 
+# Monochrome Color Theme for Voyager II
+This plugin contains 9 themes generated from the Tailwind color palette. It's used as a proof-of-concept for the Voyager II plugin system and is not very pleasant for your eyes!
