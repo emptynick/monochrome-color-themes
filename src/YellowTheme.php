@@ -43,8 +43,15 @@ class YellowTheme implements ThemePlugin
         return null;
     }
 
-    public function getStyleRoute(): string
+    public function getCssRoutes(): array
     {
-        return route('yellow-theme');
+        return [
+            route('yellow-theme')
+        ];
+    }
+
+    public function getJsRoutes(): array
+    {
+        return [];
     }
 }

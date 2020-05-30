@@ -43,8 +43,15 @@ class OrangeTheme implements ThemePlugin
         return null;
     }
 
-    public function getStyleRoute(): string
+    public function getCssRoutes(): array
     {
-        return route('orange-theme');
+        return [
+            route('orange-theme')
+        ];
+    }
+
+    public function getJsRoutes(): array
+    {
+        return [];
     }
 }

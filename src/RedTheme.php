@@ -43,8 +43,15 @@ class RedTheme implements ThemePlugin
         return null;
     }
 
-    public function getStyleRoute(): string
+    public function getCssRoutes(): array
     {
-        return route('red-theme');
+        return [
+            route('red-theme')
+        ];
+    }
+
+    public function getJsRoutes(): array
+    {
+        return [];
     }
 }

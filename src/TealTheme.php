@@ -43,8 +43,15 @@ class TealTheme implements ThemePlugin
         return null;
     }
 
-    public function getStyleRoute(): string
+    public function getCssRoutes(): array
     {
-        return route('teal-theme');
+        return [
+            route('teal-theme')
+        ];
+    }
+
+    public function getJsRoutes(): array
+    {
+        return [];
     }
 }

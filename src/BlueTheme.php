@@ -43,8 +43,15 @@ class BlueTheme implements ThemePlugin
         return null;
     }
 
-    public function getStyleRoute(): string
+    public function getCssRoutes(): array
     {
-        return route('blue-theme');
+        return [
+            route('blue-theme')
+        ];
+    }
+
+    public function getJsRoutes(): array
+    {
+        return [];
     }
 }
