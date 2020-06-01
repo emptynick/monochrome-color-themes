@@ -9,10 +9,6 @@ class MonochromeThemesCollectionServiceProvider extends ServiceProvider
 {
     public function boot(PluginManager $pluginmanager)
     {
-        /*
-purple
-pink
-        */
         $pluginmanager->addPlugin(\Emptynick\MonochromeThemesCollection\RedTheme::class);
         $pluginmanager->addPlugin(\Emptynick\MonochromeThemesCollection\OrangeTheme::class);
         $pluginmanager->addPlugin(\Emptynick\MonochromeThemesCollection\YellowTheme::class);

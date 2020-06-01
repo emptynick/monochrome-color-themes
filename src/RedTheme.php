@@ -10,7 +10,7 @@ use Voyager\Admin\Contracts\Plugins\ThemePlugin;
 class RedTheme implements ThemePlugin
 {
     public $name = 'Red Theme';
-    public $description = 'A red theme for Voyager 2';
+    public $description = 'A red theme for Voyager II';
     public $repository = 'emptynick/monochrome-color-themes';
     public $website = 'https://github.com/emptynick/monochrome-color-themes';
     public $version = '1.0.0';
