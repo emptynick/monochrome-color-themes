@@ -15,17 +15,7 @@ class YellowTheme implements ThemePlugin
     public $website = 'https://github.com/emptynick/monochrome-color-themes';
     public $version = '1.0.0';
 
-    public function getInstructionsView(): ?View
-    {
-        return null;
-    }
-
-    public function registerProtectedRoutes()
-    {
-        //
-    }
-
-    public function registerPublicRoutes()
+    public function providePublicRoutes(): void
     {
         Route::get('yellow-theme.css', function () {
             $path = realpath(dirname(__DIR__, 1).'/resources/dist/yellow.css');
@@ -38,20 +28,8 @@ class YellowTheme implements ThemePlugin
         })->name('yellow-theme');
     }
 
-    public function getSettingsView(): ?View
+    public function provideCSS(): string
     {
-        return null;
-    }
-
-    public function getCssRoutes(): array
-    {
-        return [
-            route('yellow-theme')
-        ];
-    }
-
-    public function getJsRoutes(): array
-    {
-        return [];
+        return route('voyager.yellow-theme');
     }
 }

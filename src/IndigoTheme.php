@@ -15,17 +15,7 @@ class IndigoTheme implements ThemePlugin
     public $website = 'https://github.com/emptynick/monochrome-color-themes';
     public $version = '1.0.0';
 
-    public function getInstructionsView(): ?View
-    {
-        return null;
-    }
-
-    public function registerProtectedRoutes()
-    {
-        //
-    }
-
-    public function registerPublicRoutes()
+    public function providePublicRoutes(): void
     {
         Route::get('indigo-theme.css', function () {
             $path = realpath(dirname(__DIR__, 1).'/resources/dist/indigo.css');
@@ -38,20 +28,8 @@ class IndigoTheme implements ThemePlugin
         })->name('indigo-theme');
     }
 
-    public function getSettingsView(): ?View
+    public function provideCSS(): string
     {
-        return null;
-    }
-
-    public function getCssRoutes(): array
-    {
-        return [
-            route('indigo-theme')
-        ];
-    }
-
-    public function getJsRoutes(): array
-    {
-        return [];
+        return route('voyager.indigo-theme');
     }
 }
