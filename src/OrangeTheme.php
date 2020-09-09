@@ -2,9 +2,6 @@
 
 namespace Emptynick\MonochromeThemesCollection;
 
-use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Route;
-use Illuminate\View\View;
 use Voyager\Admin\Contracts\Plugins\ThemePlugin;
 
 class OrangeTheme implements ThemePlugin
@@ -15,21 +12,8 @@ class OrangeTheme implements ThemePlugin
     public $website = 'https://github.com/emptynick/monochrome-color-themes';
     public $version = '1.0.0';
 
-    public function providePublicRoutes(): void
-    {
-        Route::get('orange-theme.css', function () {
-            $path = realpath(dirname(__DIR__, 1).'/resources/dist/orange.css');
-            $response = response(File::get($path), 200, ['Content-Type' => 'text/css']);
-            $response->setSharedMaxAge(31536000);
-            $response->setMaxAge(31536000);
-            $response->setExpires(new \DateTime('+1 year'));
-
-            return $response;
-        })->name('orange-theme');
-    }
-
     public function provideCSS(): string
     {
-        return route('voyager.orange-theme');
+        return file_get_contents(realpath(dirname(__DIR__, 1).'/resources/dist/orange.css'));
     }
 }
